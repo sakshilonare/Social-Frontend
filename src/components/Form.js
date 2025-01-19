@@ -82,13 +82,15 @@ const UserForm = () => {
           </button>
         </div>
 
-        <div className="text-center mt-4">
-            <Link
+        <div className="text-center ">
+          <button className="w-full py-2 mt-4 text-white bg-green-600 rounded-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500">
+          <Link
               to="/admin"  
-              className="w-full py-2 text-white bg-green-600 rounded-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500"
+              
             >
               Go to Dashboard
             </Link>
+          </button>
           </div>
       </div>
     </form>
