@@ -9,7 +9,7 @@ const AdminDashboard = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/user/allUsers");
+        const res = await axios.get("https://social-backend-test-lxjhvfnut-sakshilonares-projects.vercel.app/api/user/allUsers");
         setUsers(res.data);
       } catch (err) {
         alert("Failed to fetch users");
