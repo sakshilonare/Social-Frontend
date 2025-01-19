@@ -18,7 +18,7 @@ const UserForm = () => {
     });
 
     try {
-      const res = await axios.post("https://social-backend-3s0vbrn8u-sakshilonares-projects.vercel.app/api/user/upload", formData, {
+      const res = await axios.post("https://social-backend-sakshilonares-projects.vercel.app/api/user/upload", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
       alert(res.data.message);
